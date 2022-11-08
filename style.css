@@ -110,13 +110,16 @@ html, body {
   }
   #spotlight {
     position: fixed;
-    opacity: 1;
+    opacity: 0.5;
+   
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     pointer-events: none;
   }
+  
+
   /* background colours */
   
   .panel:nth-child(4n+1) {
